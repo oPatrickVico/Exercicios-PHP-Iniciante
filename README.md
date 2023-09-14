@@ -1,4 +1,5 @@
 # Exercicios-PHP-Iniciante
+
 Lista de exercícios para quem quer praticar PHP
 
 `Versão alpha-0.2.0`
@@ -11,7 +12,7 @@ Basta fazer um fork desta repo e cloná-la na sua máquina.
 
 Cada exercício estará numa pasta separada, com um enunciado, um arquivo para sua resposta e uma outra pasta contendo a solução.
 
-Os exercícios assumem conhecimento prévio de php. Se não souber uma questão, não hesite em pesquisar no google.
+Os exercícios assumem conhecimento prévio de php. **É fortemente aconselhado você seguir um tutorial\guia\curso, como [este aqui.](https://www.w3schools.com/php/default.asp)**
 
 ## Como rodar php na sua máquina
 
