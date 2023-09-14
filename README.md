@@ -1,6 +1,8 @@
 # Exercicios-PHP-Iniciante
 Lista de exercícios para quem quer praticar PHP
 
+`Versão alpha-0.2.0`
+
 Os exercícios são baseados no [site da w3resouces.](https://www.w3resource.com/php-exercises/php-basic-exercises.php)
 
 ## Como utilizar esta repo
@@ -8,6 +10,8 @@ Os exercícios são baseados no [site da w3resouces.](https://www.w3resource.com
 Basta fazer um fork desta repo e cloná-la na sua máquina.
 
 Cada exercício estará numa pasta separada, com um enunciado, um arquivo para sua resposta e uma outra pasta contendo a solução.
+
+Os exercícios assumem conhecimento prévio de php. Se não souber uma questão, não hesite em pesquisar no google.
 
 ## Como rodar php na sua máquina
 
