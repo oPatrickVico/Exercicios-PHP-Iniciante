@@ -7,9 +7,7 @@
  */
 
 ?>
-
 <br>
-
 <?php
  /**
  * Exercício 003.2: Aritmética com variáveis

@@ -9,9 +9,7 @@
 $nome="Alan";
 echo $nome;
 ?>
-
 <br>
-
 <?php
 /**
  * Exercício 003.2: Aritmética com variáveis
