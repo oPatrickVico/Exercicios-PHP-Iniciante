@@ -1,0 +1,5 @@
+- [ ] Criar exercícios que abordam o echo mostrando:
+  - [ ] Como podemos concatenar string
+  - [ ] Como podemos criar elementos html dinamicamente
+- [ ] Fazer os exercícios de echo serem 002
+  - [ ] Aumentar versão 0.(x++).0
