@@ -9,6 +9,8 @@
  // Dizendo "Olá, Mundo!"
   echo "Olá, Mundo!", "<br>";
 
+  // fim do exercício
+
 /**
  * Exercício 002.2: Ecoando valores
  * 
@@ -25,6 +27,8 @@
  // Qual é o valor de 10 / 5?
  echo 10 / 5, "<br>";
 
+// fim do exercício
+
 /**
  * Exercício 002.3: Ecoando valores diferentes na mesma linha
  * 
@@ -37,6 +41,8 @@
  * Utilize uma vírgula (,) para "colar" um valor ao outro.
  */
   echo 1 , " é um valor menor que " , 1 + 1, "<br>";
+
+// fim do exercício
 
 /**
  * Exercício 002.4: Elementos html dentro de php??

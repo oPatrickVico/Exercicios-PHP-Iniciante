@@ -5,9 +5,8 @@
  * Crie uma função que imprime "Olá, mundo" com um echo.
  */
 
-?>
-<br>
-<?php
+ echo "<br>"; // fim do exercício
+
 /**
  * Exercício 004.2: Passando paramentros à funções
  * 

@@ -15,9 +15,8 @@ function somaXeY() {
 
 somaXeY(); // Deve aparecer 10
 
-?>
-<br>
-<?php
+echo "<br>"; // fim do exercício
+
 /** 
  * Exercício 005.2: Resolva o erro de escopo, de novo
  * 
@@ -34,9 +33,8 @@ function somaAeB() {
 
 somaAeB(); // Deve aparecer 10
 
-?>
-<br>
-<?php
+echo "<br>"; // fim do exercício
+
 /** 
  * Exercício 005.3: Variáveis que sobrevivem
  * 
@@ -47,14 +45,14 @@ somaAeB(); // Deve aparecer 10
 
 function incrementa() {
   $total = 0;
-  echo $total;
+  echo $total, "<br>";
   $total ++;
 }
 
-incrementa(); 
-incrementa(); 
-incrementa();
-// Na tela, deve aparecer 012
+incrementa(); // Mostra 0
+incrementa(); // Mostra 1
+incrementa(); // Mostra 2
+
 ?>
 
 <p>

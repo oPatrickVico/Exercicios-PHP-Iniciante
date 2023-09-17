@@ -10,9 +10,9 @@
  }
 
  OlaMundo();
-?>
-<br>
-<?php
+
+ echo "<br>"; // fim do exercício
+
 /**
  * Exercício 004.2: Passando paramentros à funções
  * 

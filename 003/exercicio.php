@@ -6,9 +6,8 @@
  * Imprima seu valor na tela usando echo.
  */
 
-?>
-<br>
-<?php
+ echo "<br>"; // fim do exercício
+
  /**
  * Exercício 003.2: Aritmética com variáveis
  * 

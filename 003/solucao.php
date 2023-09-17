@@ -8,9 +8,9 @@
 
 $nome="Alan";
 echo $nome;
-?>
-<br>
-<?php
+
+echo "<br>"; // fim do exercício 
+
 /**
  * Exercício 003.2: Aritmética com variáveis
  * 
@@ -21,6 +21,7 @@ echo $nome;
 $x=2;
 $y=3;
 echo $x + $y;
+
 ?>
 
 <p>
