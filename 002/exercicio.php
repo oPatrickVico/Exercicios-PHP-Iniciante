@@ -1,16 +1,52 @@
 <?php
 /**
- * Exercício 002: Aritmética
+ * Exercício: Primeiro eco, eco, eco...
+ * 
+ * Faça a página mostrar na tela a string "Olá, mundo!"
+ * Use o comando echo. Não esqueça o ponto-e-vírgula no final!
+ */
+
+ // Dizendo "Olá, Mundo!"
+
+
+/**
+ * Exercício 002.2: Ecoando valores
  * 
  * Escreva expressões PHP que retornem o resultado de cada expressão correspondente.
+ * Utilize o comando echo.
+ */
+
+ // Qual é o valor de 2 + 2? Eco, eco, eco...
+
+
+ // Qual é o valor de 3 * 6?
+
+
+ // Qual é o valor de 10 / 5?
+
+/**
+ * Exercício 002.3: Ecoando valores diferentes na mesma linha
  * 
- * Dica: utilize o comando 'echo' para retornar o valor da expressão.
+ * Ecoe os seguintes valores com apenas um comando echo:
+ * 
+ * - 1
+ * - " é um número menor que "
+ * - 2
+ * 
+ * Utilize um ponto (.) para "colar" um valor ao outro.
+ */
+
+
+/**
+ * Exercício 002.4: Elementos html dentro de php??
+ * 
+ * Os exercícios anteriores apenas mostram o valor de cada echo.
+ * Porém, eles estão todos na mesma linha!
+ * Adicione ao final de cada echo a string "<br>" para criar novas linhas.
+ * Utilize o que aprendeu no 002.3
  */
 ?>
-<html>
-<body>
-  2 + 2 = <?php /* substitua este comentário com a expressão 1*/ ;?> <br>
-  3 * 6 = <?php /* substitua este comentário com a expressão 1*/ ;?> <br>
-  10 / 5 = <?php /* substitua este comentário com a expressão 1*/ ;?>
-</body>
-</html>
+
+<p>
+  <a href="https://www.w3schools.com/php/php_echo_print.asp">Referência.</a>
+</p>
