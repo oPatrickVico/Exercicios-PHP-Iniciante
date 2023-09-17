@@ -15,5 +15,8 @@
     <?php
     echo "Meu primeiro script PHP";
     ?>
+    <p>
+      <a href="https://www.w3schools.com/php/default.asp" target="_blank">Referência.</a>
+    </p>
   </body>
 </html>

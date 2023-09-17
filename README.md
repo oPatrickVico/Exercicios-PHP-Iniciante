@@ -2,7 +2,7 @@
 
 Lista de exercícios para quem quer praticar PHP
 
-`Versão alpha-0.3.0`
+`Versão alpha-0.4.0`
 
 Os exercícios são baseados no [curso da w3schools.](https://www.w3schools.com/php/default.asp)
 

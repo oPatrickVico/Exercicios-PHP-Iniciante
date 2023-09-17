@@ -59,5 +59,5 @@ incrementa();
 ?>
 
 <p>
-  Este exercício foi baseado <a href="https://www.w3schools.com/php/php_variables_scope.asp" target="_blank">nessa lição.</a>
+  <a href="https://www.w3schools.com/php/php_variables_scope.asp" target="_blank">Referência</a>
 </p>

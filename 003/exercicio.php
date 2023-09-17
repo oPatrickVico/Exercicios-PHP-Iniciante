@@ -18,3 +18,7 @@
  */
 
 ?>
+
+<p>
+  <a href="https://www.w3schools.com/php/php_comments.asp" target="_blank">Referência</a>
+</p>
