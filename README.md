@@ -19,3 +19,5 @@ Para abrir as páginas html, usando o VSCode, instale a extensão [PHP server](h
 Crie um [issue](https://github.com/oPatrickVico/Exercicios-PHP-Iniciante/issues), que eu respondo em breve!
 
 Curtiu o projeto? Dá uma estrelinha!
+
+Caso queira fazer sua primeira contribuição no github, [dá uma olhada nesta repo.](https://github.com/oPatrickVico/Estacio-Github)
