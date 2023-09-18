@@ -12,7 +12,15 @@ Basta fazer um fork desta repo e cloná-la na sua máquina.
 
 ## Como rodar php na sua máquina
 
-Para abrir as páginas html, usando o VSCode, instale a extensão [PHP server](https://marketplace.visualstudio.com/items?itemName=brapifra.phpserver). Quando o exercício pedir por uma página, basta clicar com o botão direito no arquivo da solução e selecionar a opção "PHP Server: Serve Project".
+Para abrir as páginas html, usando o VSCode, instale a extensão [PHP server](https://marketplace.visualstudio.com/items?itemName=brapifra.phpserver). 
+
+Com a extensão instalada, basta clicar com o botão direito no arquivo da solução e selecionar a opção "PHP Server: Serve Project" para iniciar o servidor:
+
+![Iniciando o servidor](imagens/Iniciando%20Servidor.jpg)
+
+Com o servidor rodando, para abrir outras páginas, basta clicar na opção "Open File":
+
+![Abrindo arquivo](imagens/Abrindo%20Arquivo.jpg)
 
 ## Dúvidas? Sugestões? Feedback?
 
