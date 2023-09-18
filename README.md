@@ -8,7 +8,13 @@ Os exercícios são baseados no [curso da w3schools.](https://www.w3schools.com/
 
 ## Como utilizar esta repo
 
-Basta fazer um fork desta repo e cloná-la na sua máquina.
+Se você usa Windows e não tem o git, [baixe aqui.](https://gitforwindows.org/)
+
+No console do git, ponha o seguinte commando:
+
+```git
+git clone git@github.com:oPatrickVico/Exercicios-PHP-Iniciante.git
+```
 
 ## Como rodar php na sua máquina
 
