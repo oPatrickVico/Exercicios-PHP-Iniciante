@@ -1,0 +1,379 @@
+<html>
+  <head>
+    <title>Lista de Operadores Em PHP</title>
+    <style>
+      table {
+        margin-top: 50px;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+        display: none;
+      }
+      tr {
+        display: grid;
+        grid-template-columns: 80px repeat(3, 220px);
+        place-items: center;
+        padding: 5px 20px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+      }
+      tbody > tr:last-child {
+        border-bottom: none;
+      }
+    </style>
+  </head>
+  <body>
+    <label>
+      Escolha a tabela desejada:
+      <select id="selecionadorDeTabela">
+        <option value="Aritméticos">Aritméticos</option>
+        <option value="Atribuição">Atribuição</option>
+        <option value="Comparação">Comparação</option>
+        <option value="Incremento-Decremento">Incremento-Decremento</option>
+        <option value="Lógico">Lógico</option>
+        <option value="String">String</option>
+        <option value="Ternário">Ternário</option>
+      </select>
+    </label>
+
+    <table id="Aritméticos" style="display: block">
+      <thead>
+        <caption>
+          Operadores Aritméticos
+        </caption>
+        <tr>
+          <th>Operador</th>
+          <th>Nome</th>
+          <th>Exemplo</th>
+          <th>Descrição</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>+</td>
+          <td>Adição</td>
+          <td>$x + $y</td>
+          <td>Realiza a adição de $x e $y.</td>
+        </tr>
+        <tr>
+          <td>-</td>
+          <td>Subtração</td>
+          <td>$x - $y</td>
+          <td>Calcula a diferença entre $x e $y.</td>
+        </tr>
+        <tr>
+          <td>*</td>
+          <td>Multiplicação</td>
+          <td>$x * $y</td>
+          <td>Realiza a multiplicação de $x e $y.</td>
+        </tr>
+        <tr>
+          <td>/</td>
+          <td>Divisão</td>
+          <td>$x / $y</td>
+          <td>Executa a divisão de $x por $y.</td>
+        </tr>
+        <tr>
+          <td>%</td>
+          <td>Módulo</td>
+          <td>$x % $y</td>
+          <td>Calcula o resto da divisão de $x por $y.</td>
+        </tr>
+        <tr>
+          <td>**</td>
+          <td>Exponenciação</td>
+          <td>$x ** $y</td>
+          <td>Calcula o resultado de elevar $x à potência de $y.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table id="Atribuição">
+      <thead>
+        <caption>
+          Operações de Atribuição
+        </caption>
+        <tr>
+          <th>Atribuição</th>
+          <th>Equivalente</th>
+          <th>Exemplo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>x = y</td>
+          <td>x = y</td>
+          <td>O operando esquerdo recebe o valor da expressão à direita.</td>
+        </tr>
+        <tr>
+          <td>x += y</td>
+          <td>x = x + y</td>
+          <td>Adição.</td>
+        </tr>
+        <tr>
+          <td>x -= y</td>
+          <td>x = x - y</td>
+          <td>Subtração.</td>
+        </tr>
+        <tr>
+          <td>x *= y</td>
+          <td>x = x * y</td>
+          <td>Multiplicação.</td>
+        </tr>
+        <tr>
+          <td>x /= y</td>
+          <td>x = x / y</td>
+          <td>Divisão.</td>
+        </tr>
+        <tr>
+          <td>x %= y</td>
+          <td>x = x % y</td>
+          <td>Módulo.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table id="Comparação">
+      <thead>
+        <caption>
+          Operadores de Comparação
+        </caption>
+        <tr>
+          <th>Operador</th>
+          <th>Nome</th>
+          <th>Exemplo</th>
+          <th>Resultado</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>==</td>
+          <td>Igual</td>
+          <td>$x == $y</td>
+          <td>Retorna verdadeiro se $x for igual a $y.</td>
+        </tr>
+        <tr>
+          <td>===</td>
+          <td>Idêntico</td>
+          <td>$x === $y</td>
+          <td>
+            Retorna verdadeiro se $x for igual a $y e forem do mesmo tipo.
+          </td>
+        </tr>
+        <tr>
+          <td>!=</td>
+          <td>Diferente</td>
+          <td>$x != $y</td>
+          <td>Retorna verdadeiro se $x for diferente de $y.</td>
+        </tr>
+        <tr>
+          <td>&lt;&gt;</td>
+          <td>Diferente</td>
+          <td>$x &lt;&gt; $y</td>
+          <td>Retorna verdadeiro se $x for diferente de $y.</td>
+        </tr>
+        <tr>
+          <td>!==</td>
+          <td>Não idêntico</td>
+          <td>$x !== $y</td>
+          <td>
+            Retorna verdadeiro se $x for diferente de $y ou se não forem do
+            mesmo tipo.
+          </td>
+        </tr>
+        <tr>
+          <td>&gt;</td>
+          <td>Maior que</td>
+          <td>$x &gt; $y</td>
+          <td>Retorna verdadeiro se $x for maior que $y.</td>
+        </tr>
+        <tr>
+          <td>&lt;</td>
+          <td>Menor que</td>
+          <td>$x &lt; $y</td>
+          <td>Retorna verdadeiro se $x for menor que $y.</td>
+        </tr>
+        <tr>
+          <td>&gt;=</td>
+          <td>Maior ou igual a</td>
+          <td>$x &gt;= $y</td>
+          <td>Retorna verdadeiro se $x for maior ou igual a $y.</td>
+        </tr>
+        <tr>
+          <td>&lt;=</td>
+          <td>Menor ou igual a</td>
+          <td>$x &lt;= $y</td>
+          <td>Retorna verdadeiro se $x for menor ou igual a $y.</td>
+        </tr>
+        <tr>
+          <td>&lt;=&gt;</td>
+          <td>Spaceship</td>
+          <td>$x &lt;=&gt; $y</td>
+          <td>
+            Retorna um número inteiro menor que, igual a, ou maior que zero,
+            dependendo se $x for menor que, igual a, ou maior que $y.
+            Introduzido no PHP 7.
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table id="Incremento-Decremento">
+      <thead>
+        <caption>
+          Operadores de Incremento e Decremento
+        </caption>
+        <tr>
+          <th>Operador</th>
+          <th>Nome</th>
+          <th>Descrição</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>++$x</td>
+          <td>Pré-incremento</td>
+          <td>Incrementa $x em um e, em seguida, retorna $x.</td>
+        </tr>
+        <tr>
+          <td>$x++</td>
+          <td>Pós-incremento</td>
+          <td>Retorna $x e, em seguida, incrementa $x em um.</td>
+        </tr>
+        <tr>
+          <td>--$x</td>
+          <td>Pré-decremento</td>
+          <td>Decrementa $x em um e, em seguida, retorna $x.</td>
+        </tr>
+        <tr>
+          <td>$x--</td>
+          <td>Pós-decremento</td>
+          <td>Retorna $x e, em seguida, decrementa $x em um.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table id="Lógico">
+      <thead>
+        <caption>
+          Operadores Lógicos
+        </caption>
+        <tr>
+          <th>Operador</th>
+          <th>Nome</th>
+          <th>Exemplo</th>
+          <th>Resultado</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>and</td>
+          <td>E</td>
+          <td>$x and $y</td>
+          <td>Verdadeiro se tanto $x quanto $y forem verdadeiros</td>
+        </tr>
+        <tr>
+          <td>or</td>
+          <td>Ou</td>
+          <td>$x or $y</td>
+          <td>Verdadeiro se $x ou $y forem verdadeiros</td>
+        </tr>
+        <tr>
+          <td>xor</td>
+          <td>Ou Exclusivo</td>
+          <td>$x xor $y</td>
+          <td>Verdadeiro se $x ou $y forem verdadeiros, mas não ambos</td>
+        </tr>
+        <tr>
+          <td>&&</td>
+          <td>E</td>
+          <td>$x && $y</td>
+          <td>Verdadeiro se tanto $x quanto $y forem verdadeiros</td>
+        </tr>
+        <tr>
+          <td>||</td>
+          <td>Ou</td>
+          <td>$x || $y</td>
+          <td>Verdadeiro se $x ou $y forem verdadeiros</td>
+        </tr>
+        <tr>
+          <td>!</td>
+          <td>Não</td>
+          <td>!$x</td>
+          <td>Verdadeiro se $x não for verdadeiro</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table id="String">
+      <thead>
+        <caption>
+          Operadores de Strings
+        </caption>
+        <tr>
+          <th>Operador</th>
+          <th>Nome</th>
+          <th>Exemplo</th>
+          <th>Resultado</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>.</td>
+          <td>Concatenação</td>
+          <td>$txt1 . $txt2</td>
+          <td>Concatenação de $txt1 e $txt2</td>
+        </tr>
+        <tr>
+          <td>.=</td>
+          <td>Atribuição de Concatenação</td>
+          <td>$txt1 .= $txt2</td>
+          <td>Anexa $txt2 a $txt1</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table id="Ternário">
+      <thead>
+        <caption>
+          Operadores Ternários
+        </caption>
+        <tr>
+          <th>Operador</th>
+          <th>Nome</th>
+          <th>Exemplo</th>
+          <th>Resultado</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>?:</td>
+          <td>Ternário</td>
+          <td>$x = expr1 ? expr2 : expr3</td>
+          <td>
+            Retorna o valor de $x. O valor de $x é expr2 se expr1 = TRUE. O
+            valor de $x é expr3 se expr1 = FALSE.
+          </td>
+        </tr>
+        <tr>
+          <td>??</td>
+          <td>Coalescência de Nulo</td>
+          <td>$x = expr1 ?? expr2</td>
+          <td>
+            Retorna o valor de $x. O valor de $x é expr1 se expr1 existe e não é
+            NULL. Se expr1 não existe ou é NULL, o valor de $x é expr2.
+            Introduzido no PHP 7.
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <script>
+      document
+        .getElementById('selecionadorDeTabela')
+        .addEventListener('change', (e) => {
+          document.querySelectorAll('table').forEach((t) => {
+            t.style.display = 'none';
+          });
+          document.getElementById(e.target.value).style.display = 'block';
+        });
+    </script>
+  </body>
+</html>
