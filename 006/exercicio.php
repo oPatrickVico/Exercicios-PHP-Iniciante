@@ -9,7 +9,7 @@
 
  $string = "Eu sou uma string, hahaha: ";
 
-echo "<br>"; // fim do exercício
+echo "<br><br>"; // fim do exercício
 
 /**
  * Exercício 006.2: Contando palavras
@@ -21,7 +21,7 @@ echo "<br>"; // fim do exercício
 
  $string = "Eu sou outra string, hehehe: ";
 
-echo "<br>"; // fim do exercício
+echo "<br><br>"; // fim do exercício
 
 /**
  * Exercício 006.3: Invertendo strings
@@ -33,7 +33,7 @@ echo "<br>"; // fim do exercício
 
  $string = "Do contra, eu sou, hihihi: ";
 
-echo "<br>"; // fim do exercício
+echo "<br><br>"; // fim do exercício
 
 /**
  * Exercício 006.4: Procurando por um texto
@@ -45,7 +45,7 @@ echo "<br>"; // fim do exercício
 
  $string = "O que está buscando, hohoho? ";
 
-echo "<br>"; // fim do exercício
+echo "<br><br>"; // fim do exercício
 
 /**
  * Exercício 006.5: Substituindo texto
@@ -56,7 +56,35 @@ echo "<br>"; // fim do exercício
  * Utilize a função str_replace().
  */
 
- $string = "Eu estou aqui, lol: ";
+  $string = "Eu estou aqui, lol: ";
+
+ echo "<br><br>"; // fim do exercício
+
+  /**
+ * Exercício 006.6: Concateneação de strings
+ * 
+ * Para unir duas strings, basta usar o operador (.)
+ * A concateneação de strings é uma expressão, assim como 1+1.
+ */
+   echo "Olá " . "Mundo";
+
+  // Concateneie "super" e "legal" abaixo
+
+ echo "<br><br>"; // fim do exercício
+
+ /**
+  * Exercício 006.7: Extenção de strings
+  * 
+  * É possível extender uma string com a expressão:
+  * $x = $x . "outra string";
+  * 
+  * Seu atalho é o operador (.=).
+  */
+
+ $y = "Como vai?";
+ // Extenda $y abaixo com "Eu vou bem
+
+ echo $y;
 
 ?>
 

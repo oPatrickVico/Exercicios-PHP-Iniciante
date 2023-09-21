@@ -1,36 +1,66 @@
 <?php
 /**
- * Exercício: Primeiro eco, eco, eco...
+ * Exercício 002.1: Primeiro eco, eco, eco...
  * 
  * Faça a página mostrar na tela a string "Olá, mundo!"
  * Use o comando echo. Não esqueça o ponto-e-vírgula no final!
+ * Só escrever echo ... ;
  */
 
  // Dizendo "Olá, Mundo!"
-  echo "Olá, Mundo!", "<br>";
+  echo "Olá, Mundo!";
 
   // fim do exercício
 
 /**
- * Exercício 002.2: Ecoando valores
+ * Exercício 002.2: Elementos html dentro de php??
+ * 
+ * Basta colocar o element html entre aspas (") e
+ * ecoar!
+ * Siga o exemplo abaixo e crie um subtítulo (h2)
+ */
+
+ echo "<h1>Eu sou um título</h2>";
+ // Coloque o subtítulo abaixo
+ echo "<h2>Eu sou um subtítulo</h2>";
+
+ echo "<br><br>"; // Este comando pulará duas linhas na página, sinalizando o final do exercício
+
+/**
+ * Exercício 002.3: Expressões matemáticas 1
  * 
  * Escreva expressões PHP que retornem o resultado de cada expressão correspondente.
  * Utilize o comando echo.
  */
 
  // Qual é o valor de 2 + 2? Eco, eco, eco...
-  echo 2 + 2, "<br>";
+  echo 2 + 2;
+  echo "<br>"; // Pula para próxima linha
 
  // Qual é o valor de 3 * 6?
-  echo 3 * 6, "<br>";
+  echo 3 * 6;
 
- // Qual é o valor de 10 / 5?
- echo 10 / 5, "<br>";
-
-// fim do exercício
+echo "<br><br>"; // fim do exercício
 
 /**
- * Exercício 002.3: Ecoando valores diferentes na mesma linha
+ * Exercício 002.4: Expressões matemáticas 2
+ * 
+ * Os parenteses definem a ordem de como uma expressão é computada.
+ * Ecoe os valores de:
+ *  2 + 3 * 4
+ *  (2 + 3) * 4
+ * 
+ * E veja a diferença!
+ */
+
+ echo 2 + 3 * 4; // Deve mostrar 14
+ echo "<br>";
+ echo (2 + 3) * 4; // Deve mostrar 20
+
+ echo "<br><br>"; // fim do exercício
+
+/**
+ * Exercício 002.5: Ecoando valores diferentes na mesma linha
  * 
  * Ecoe os seguintes valores com apenas um comando echo:
  * 
@@ -38,20 +68,11 @@
  * - " é um número menor que "
  * - 1 + 1
  * 
- * Utilize uma vírgula (,) para "colar" um valor ao outro.
+ * Utilize uma vírgula (,) para separar cada item
  */
-  echo 1 , " é um valor menor que " , 1 + 1, "<br>";
+  echo 1 , " é um valor menor que " , 1 + 1;
 
 // fim do exercício
-
-/**
- * Exercício 002.4: Elementos html dentro de php??
- * 
- * Os exercícios anteriores apenas mostram o valor de cada echo.
- * Porém, eles estão todos na mesma linha!
- * Adicione ao final de cada echo a string "<br>" para criar novas linhas.
- * Utilize o que aprendeu no 002.3
- */
 ?>
 
 <p>
