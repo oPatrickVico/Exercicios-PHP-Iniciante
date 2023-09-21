@@ -69,5 +69,5 @@ echo "<br><br>"; // fim do exercício
 </p>
 
 <p>
-  <a href="../010/Tabela de operadores.html">Lista de Operadores de PHP</a>
+  <a href="../Tabela de operadores.html">Lista de Operadores de PHP</a>
 </p>
